@@ -11,4 +11,4 @@ tempToC t = ( fromIntegral t - 32) / 1.8
 `  Celsius to Fahrenheit                    -}
 
 tempToF :: Float -> Integer
-tempToF = (ceiling ( * 1.8) + 32)
+tempToF t = ceiling ((t * 1.8) + 32)
