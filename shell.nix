@@ -12,6 +12,7 @@ pkgs.stdenv.mkDerivation
     cabal-install
     exercism
     ghc
+    stack
     llvmPackages_13.bintools
     llvmPackages_13.clang
     llvmPackages_13.libclang
